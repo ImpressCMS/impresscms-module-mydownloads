@@ -1,0 +1,86 @@
+Changelog
+
+************
+v1.6
+************
+- The module is now Xoops 2.3 compatible
+- Many corrections in the use of the deprecated TextSanitizer functions
+- In the form used to submit a new download in the user side, the download url and the file's size were not visible anymore
+- Some warnings in the module were removed
+- I have made a change in include/search.inc.php because of Php 4
+- You will get this warning :
+	Warning: Class 'XoopsTree' is deprecated, check 'XoopsObjectTree' in tree.php in file /class/xoopstree.php line 45
+  It will be changed later.
+
+************
+v1.50
+************
+- You can use permissions (to view and to submit), this modification was developed with funding from Mowaffak Ali (thanks to him)
+- New option to activate a pager on the module's index page to go from pages to pages.
+  This change has been repaid to the community through the support of AGFA
+- Use can use RSS feeds
+	- at http://www.example.com/modules/mydownloads/rss.php for a feed of all the recent downloads
+	- at http://www.example.com/modules/mydownloads/rss.php?cid=1 for a feed of the recent downloads of the category 1
+
+************
+v1.45
+************
+- You can use much more WYSIWYG editors (DHTML, Compact, Spaw, HtmlArea, Koivi, FCK, TinyEditor)
+- You can upload categories pictures directly from the module's administration
+- Some module's preferences where changed from a scrolling list to a text box
+- In the module's options, you can select where to upload screen shots
+- The module's administration user interface is "nicer"
+- The module table's fields are larger
+
+
+************
+v1.44
+************
+- Some bugs were corrected in the file xoops_version.php
+- A line was missing in mydownloads_download.html (to rank a file and to modify it)
+- There was a bug when you was modifying a download (when you was changing the file)
+- Correction of a bug in the module's index page
+
+************
+v1.43
+************
+- Some minor changes in the download_download.html template
+-- When a file's size is not set, then the templates does not display its size
+-- When the file's platform is not set, then the templates does not display the information
+-- When the file's homepage is not  set, then the templates does not display the information
+- The module's templates can now access the module's name (with the Smarty variable call "module_name")
+- The downloads titles are now 255 characters long
+- When you post a comment, the module verifies that the download exists
+- You can set the number of new downloads on the module's index page to 0
+- You can select if you want to see the "updated" and "New" picture or not
+
+
+************
+v1.4
+************
+- You can now select where to upload files and if you want to rename files (thanks to Shine)
+
+************
+v1.3
+************
+- I have modified all the meta informations to be compatible with Xoops 2.0.14
+- Templates were modified to be more xhtml compliant
+- I have replaced all the $HTTP_POST_VARS and $HTTP_GET_VARS calls
+
+************
+v1.2
+************
+- All pages have a significative page's title
+- The module uses News 1.44 metagen
+- With the module's preferences, you can choose, on the index page, display's order (for the recent files)
+- You can use html code in the files descriptions
+- On the category page, you can display a summary (set it in the module's preferences) of the availables files to download
+  (see http://www.herve-thouzard.com/modules/mydownloads for an example)
+  The summary is created from the files descriptions
+- The user interface used to submit file was a little modified to be able to sumbit files directly from this part
+  The files are saved in your Xoops "uploads" folders with a uniq name.
+  In the module's preferences, you can set the mimetypes authorized for download
+  Actually you can download pictures at the gif, jpeg & png format, zip & tar files, pdf files,
+  word & excel files and all documents from OpenOffice
+  You can also select the max upload file's size (still in the module's preferences)
+- You can use kiovi to create your files descriptions

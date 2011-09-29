@@ -1,0 +1,8 @@
+<?php
+// $Id: blocks.php,v 1.9 2004/12/26 19:11:56 onokazu Exp $
+// Blocks
+define("_MB_MYDOWNLOADS_DISP","ÚÑÖ");
+define("_MB_MYDOWNLOADS_FILES","ÇáãáÝÇÊ");
+define("_MB_MYDOWNLOADS_CHARS","Øæá ÇÓã ÇáÈÑäÇãÌ");
+define("_MB_MYDOWNLOADS_LENGTH"," ÍÑÝ");
+?>

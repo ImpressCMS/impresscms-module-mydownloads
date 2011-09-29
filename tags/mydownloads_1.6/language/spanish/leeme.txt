@@ -1,0 +1,16 @@
+Archivos de traducción del módulo Mydownloads 1.44 (por Hervet). Esta traducción está basada en la ya existente para el módulo Mydownloads 1.11 que se incluía en el Xoops 2.0.13.2, por lo que los créditos son para la gente del proyecto www.esxoops.com. Se incluyen también las imágenes con leyendas traducidas al castellano que venían con dicho módulo original.
+
+El módulo completo incluye soporte para inglés, francés y danés. Puedes descargarlo aquí:
+http://www.xoopsaddons.org/modules/wfdownloads/singlefile.php?lid=907
+
+INSTRUCCIONES:
+
+Copia lo incluído en el archivo comprimido mydownloads_1.44_hervet_spanish.zip dentro del directorio modules de tu instalación de Xoops, sobreescribiendo lo que ya existiera.
+
+También puedes:
+
+1) Copiar el directorio spanish que encontrarás en el directorio 'mydownloads/language' del archivo zip dentro del directorio 'modules/mydownloads/language' de tu instalación de Xoops.
+
+2) Copiar todos los archivos existentes en el directorio 'mydownloads/images' del archivo zip, sobreescribiendo los existentes en el directorio 'modules/mydownloads/images' de tu instalación de Xoops.
+
+- Colossus (http://www.zonadepruebas.com) 04/11/2007 -
